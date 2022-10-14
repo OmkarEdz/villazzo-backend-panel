@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "reviewspages",
+  "info": {
+    "singularName": "reviewspage",
+    "pluralName": "reviewspages",
+    "displayName": "Reviewspage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "review": {
+      "type": "text",
+      "maxLength": 8,
+      "minLength": 1
+    }
+  }
+}
