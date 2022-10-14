@@ -11,7 +11,7 @@
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
     "npm": "^8.16.0",
-    "pg": "^8.7.3",
+    "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-populate-deep": "^0.1.2",
     "strapi-provider-upload-cloudinary": "^3.6.10"
