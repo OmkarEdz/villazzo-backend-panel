@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "meet_the_teams",
+  "info": {
+    "singularName": "meet-the-team",
+    "pluralName": "meet-the-teams",
+    "displayName": "Meet the team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "memberName": {
+      "type": "text"
+    }
+  }
+}

@@ -12,117 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "memberName": {
-      "type": "string"
-    },
-    "memberImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "memberType": {
-      "type": "string"
-    },
-    "contactNo": {
-      "type": "string"
-    },
-    "memberEmail": {
-      "type": "email"
-    },
-    "memberName1": {
-      "type": "string"
-    },
-    "memberImage1": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "memberType1": {
-      "type": "string"
-    },
-    "contactNo1": {
-      "type": "string"
-    },
-    "memberEmail1": {
-      "type": "email"
-    },
-    "memberName2": {
-      "type": "string"
-    },
-    "memberImage2": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "memberType2": {
-      "type": "string"
-    },
-    "contactNo2": {
-      "type": "string"
-    },
-    "memberEmail2": {
-      "type": "email"
-    },
-    "memberName3": {
-      "type": "string"
-    },
-    "memberImage3": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "memberType3": {
-      "type": "string"
-    },
-    "contactNo3": {
-      "type": "string"
-    },
-    "memberEmail3": {
-      "type": "string"
-    },
     "moreVillaImageDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "moreVillaImageMob": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-members.team-members"
     }
   }
 }

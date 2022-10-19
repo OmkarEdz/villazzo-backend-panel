@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "new_development_pages",
+  "info": {
+    "singularName": "new-development-page",
+    "pluralName": "new-development-pages",
+    "displayName": "New Development Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "new-development-page.new-development"
+    }
+  }
+}

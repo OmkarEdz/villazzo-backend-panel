@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_new_development_page_new_developments",
+  "info": {
+    "displayName": "New Development"
+  },
+  "options": {},
+  "attributes": {
+    "propertyImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "propertyName": {
+      "type": "string"
+    },
+    "propertyLocation": {
+      "type": "string",
+      "default": "Property Location"
+    }
+  }
+}
