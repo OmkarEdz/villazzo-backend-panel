@@ -4,15 +4,26 @@
   "info": {
     "singularName": "meet-the-team",
     "pluralName": "meet-the-teams",
-    "displayName": "Meet the team"
+    "displayName": "Meet the team",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "memberName": {
-      "type": "text"
+    "Proprties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-pop.featured-properties"
+    },
+    "Member": {
+      "type": "component",
+      "repeatable": false,
+      "component": "single-member.single-member"
+    },
+    "Content": {
+      "type": "richtext"
     }
   }
 }

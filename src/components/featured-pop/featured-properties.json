@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_videos_videos",
+  "collectionName": "components_featured_pop_featured_properties",
   "info": {
-    "displayName": "Videos",
+    "displayName": "Featured Properties",
     "description": ""
   },
   "options": {},
@@ -12,7 +12,7 @@
     "subheading": {
       "type": "string"
     },
-    "youtubeEmebedURL": {
+    "propertyImageURL": {
       "type": "string"
     }
   }

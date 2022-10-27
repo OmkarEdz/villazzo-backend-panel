@@ -25,6 +25,9 @@
     },
     "memberEmail": {
       "type": "email"
+    },
+    "memberImageURL": {
+      "type": "string"
     }
   }
 }

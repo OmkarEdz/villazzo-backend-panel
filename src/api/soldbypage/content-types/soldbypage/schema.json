@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "sold_by_pages",
+  "collectionName": "soldbypages",
   "info": {
-    "singularName": "sold-by-page",
-    "pluralName": "sold-by-pages",
+    "singularName": "soldbypage",
+    "pluralName": "soldbypages",
     "displayName": "Sold By Page",
     "description": ""
   },
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Sold": {
+    "soldProperties": {
       "type": "component",
       "repeatable": true,
       "component": "sold.sold-properties"
