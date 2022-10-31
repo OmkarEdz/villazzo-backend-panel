@@ -9,14 +9,6 @@
     "memberName": {
       "type": "string"
     },
-    "memberImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "memberType": {
       "type": "string"
     },
@@ -27,6 +19,9 @@
       "type": "email"
     },
     "memberImageURL": {
+      "type": "string"
+    },
+    "pagelink": {
       "type": "string"
     }
   }

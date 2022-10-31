@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "meettheteams",
+  "collectionName": "emilygonzalezs",
   "info": {
-    "singularName": "meettheteam",
-    "pluralName": "meettheteams",
-    "displayName": "Lisa Blake",
-    "description": ""
+    "singularName": "emilygonzalez",
+    "pluralName": "emilygonzalezs",
+    "displayName": "Emily Gonzalez"
   },
   "options": {
     "draftAndPublish": true
@@ -25,15 +24,16 @@
       "type": "string"
     },
     "memberEmail": {
-      "type": "string"
-    },
-    "Proprties": {
-      "type": "component",
-      "repeatable": true,
-      "component": "sold.sold-properties"
+      "type": "email"
     },
     "Content": {
       "type": "text"
+    },
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-pop.featured-properties",
+      "max": 3
     }
   }
 }
