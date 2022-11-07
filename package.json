@@ -1,9 +1,11 @@
 {
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.1",
+    "@strapi/plugin-email": "^4.4.7",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.2.3",
     "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/provider-email-sendgrid": "^4.4.7",
     "@strapi/provider-upload-cloudinary": "^4.3.2",
     "@strapi/strapi": "^4.3.0",
     "better-sqlite3": "7.4.6",
