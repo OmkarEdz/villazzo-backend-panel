@@ -42,6 +42,12 @@
     },
     "videoURL": {
       "type": "string"
+    },
+    "defaultSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
     }
   }
 }
