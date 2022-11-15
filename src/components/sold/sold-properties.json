@@ -9,11 +9,11 @@
     "heading": {
       "type": "string"
     },
-    "subheading": {
-      "type": "string"
-    },
     "propertyImageURL": {
       "type": "string"
+    },
+    "subheading": {
+      "type": "richtext"
     }
   }
 }
